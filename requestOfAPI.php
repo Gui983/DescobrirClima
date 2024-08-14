@@ -2,8 +2,8 @@
 	$indexRequestCep = $_POST['request_cep'] ?? '01153-000';
 
 	$apiKeys = array(
-			'apiKeyCep'=>'AIzaSyA_BHjFt5w3kYn0BK6Lqhof8jVtyJeG7_E',
-			'apiKeyClima'=>'83dc37a5dee2c7a44842ce081a049249'
+			'apiKeyCep'=>'YourApiKey',
+			'apiKeyClima'=>'YourApiKey'
 		);
 
 	$urlResquestApiCep = 'https://maps.googleapis.com/maps/api/geocode/json?address='.$indexRequestCep.'&key='.$apiKeys['apiKeyCep'];
