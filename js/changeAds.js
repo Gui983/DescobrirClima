@@ -29,7 +29,7 @@ function changeAds(){
 
     anuncio.src = imagesSrc[current];
 
-    setTimeout(function(){changeAds();},1000);
+    setTimeout(function(){changeAds();},12000);
 
     current = current + 1;
 
